@@ -4,7 +4,7 @@ const router = require("./routes/routes");
 
 app.use(express.json());
 app.use(router);
-const PORT = 8000 || process.env.PORT;
+const PORT = 80 || process.env.PORT;
 
 app.listen(PORT, () => {
   console.log(`Listening to the PORT ${PORT}`);
